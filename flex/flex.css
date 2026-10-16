@@ -2,11 +2,15 @@
     display: flex;
     background-color: blue;
     gap: 20px;
+    border: 2px solid black;
     flex-direction: row;
+    /* padding: 20px; */
+    flex-wrap: wrap;
 }
-.div{
+#container div{
     color: black;
     background-color: yellow;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
 }
